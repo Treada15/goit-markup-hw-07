@@ -1,0 +1,105 @@
+/*--COMMAND--*/
+.command {
+    background-color: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+      letter-spacing: 0.03em;
+        margin-bottom: 50px;
+        color: var(--second-text-color);
+    }
+    &-list-item-box__title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.18;
+      /* identical to box height */
+    
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin-bottom: 10px;
+    
+      color: var(--second-title-color);
+    }
+    &__list {
+      display: flex;
+      padding: 0px;
+    }
+    &-list__item {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.19;
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin-right: 30px;
+    
+      color: var(--third-text-color);
+      background-color: #ffffff;
+      box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      &:last-child {
+        margin-right: 0px;
+        }
+        &-text {
+          font-style: Roboto;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.19;
+          text-align: center;
+          letter-spacing: 0.03em;
+          margin-bottom: 16px;
+        }
+    }
+    &-list__item-box{
+      padding: 30px 0px;
+      }
+    &-list__social {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+       }
+    &-list__social-item {
+        width: 44px;
+        height: 44px;
+        & + & {
+          margin-left: 10px;
+        }
+        } 
+    &-list-social__item-link {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          @extend %align-list;
+          justify-content: center;
+          color: #afb1b8;
+          transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover,
+            &:focus {
+          background-color: var(--second-button-color);
+          color: var(--first-button-color);
+        }
+        }
+        &-list-social__item-icon {
+          fill: currentColor;
+        }   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

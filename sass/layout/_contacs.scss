@@ -1,0 +1,54 @@
+/*---CONTACS--*/
+.contacs {
+    background-color: #2f303a;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    &-container {
+      display: flex;
+      align-items: baseline;
+    }
+    &__text {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: var(--first-text-color);
+      
+    }
+    &__list{
+      margin-top: 20px;
+    }
+    &-list__item {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.72;
+      letter-spacing: 0.03em;
+      color: var(--third-text-color);
+      margin-bottom: 9px;
+      &:last-child{
+        margin: 0px;
+      }
+    }
+    &-list__item-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.72;
+    
+      color: rgba(255, 255, 255, 0.6);
+    }
+    &-list__item-address {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.72;
+    
+      color: #ffffff;
+    }
+  }
