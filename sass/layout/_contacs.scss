@@ -3,11 +3,11 @@
     background-color: #2f303a;
     padding-bottom: 60px;
     padding-top: 60px;
-    &-container {
+    .contacs-container {
       display: flex;
       align-items: baseline;
     }
-    &__text {
+    .contacs__text {
       font-family: Raleway;
       font-style: normal;
       font-weight: 700;
@@ -17,10 +17,10 @@
       color: var(--first-text-color);
       
     }
-    &__list{
+    .contacs__list{
       margin-top: 20px;
     }
-    &-list__item {
+    .contacs-list__item {
       font-family: Roboto;
       font-style: normal;
       font-weight: 400;
@@ -33,7 +33,7 @@
         margin: 0px;
       }
     }
-    &-list__item-link {
+    .contacs-list__item-link {
       font-family: Roboto;
       font-style: normal;
       font-weight: 400;
@@ -42,7 +42,7 @@
     
       color: rgba(255, 255, 255, 0.6);
     }
-    &-list__item-address {
+    .contacs-list__item-address {
       font-family: Roboto;
       font-style: normal;
       font-weight: 400;

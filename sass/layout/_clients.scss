@@ -4,10 +4,10 @@
     background-color: #ffffff;
     padding-top: 94px;
     padding-bottom: 94px;
-    &-container {
+    .clients-container {
       width: 1200px;
   }
-  &__item-title {
+  .clients__item-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -18,19 +18,23 @@
   
     color: var(--second-title-color);
   }
-  &__social-list {
+  .clients__social-list {
     display: flex;
     justify-content: center;
     padding: 0px;
   }
-  &-social-list__item {
+  .clients-social-list__item {
     width: 170px;
     height: 92px;
-    & + & {
-      margin-left: 30px;
-    }
+   
   }
-  &-social-list__item-link {
+  .clients-social-list__item + .clients-social-list__item {
+    margin-left: 30px;
+  }
+
+
+
+  .clients-social-list__item-link {
     width: 100%;
     height: 100%;
     border-radius: 4px;
@@ -47,7 +51,7 @@
     color: var(--second-button-color);
   }
   }
-  &-social-list-item__link-icon {
+  .clients-social-list-item__link-icon {
     fill: currentColor;
   }
   }

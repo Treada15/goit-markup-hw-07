@@ -3,7 +3,7 @@
 .footer {
     margin-left: 70px;
     
-    &__item-title {
+    .footer__item-title {
       font-weight: 500;
       font-size: 14px;
       line-height: 1.18;
@@ -15,19 +15,20 @@
     
       color: var(--first-text-color);
     }
-    &__list-social{
+    .footer__list-social{
       display: flex;
       justify-content: center;
       padding: 0px;
     }
-    &-list-social__item {
+    .footer-list-social__item {
       width: 44px;
       height: 44px;
-      & + & {
-        margin-left: 10px;
-      } 
+      
     }
-    &-list-social__item-link {
+    .footer-list-social__item + .footer-list-social__item {
+      margin-left: 10px;
+    } 
+    .footer-list-social__item-link {
       width: 100%;
       height: 100%;
       border-radius: 50%;
@@ -43,7 +44,7 @@
       color: var(--first-button-color);
     }
     }
-    &-list-social__item-icon {
+    .footer-list-social__item-icon {
       fill: currentColor;
     }
   }
