@@ -1,7 +1,7 @@
 /*--HEADER --*/
 .header {
     background-color: #ffffff;
-    .header__current::after {
+    .header-list__text--current::after {
       content: " ";
       width: 100%;
       height: 4px;
@@ -11,7 +11,7 @@
       left: 0;
       bottom: -33px;
     }
-    .header_container{
+    .header__container{
     display: flex;
     align-items: center;
     width: 1200px;
@@ -19,19 +19,19 @@
     .header__navigation {
       @extend %align-list;
     }
-    .header__connect {
+    .header-connect {
       margin-left: auto;
       display: flex;
       align-items: flex-end;
     }
-    .header__list {
+    .header-list {
       display: flex;
       margin: 0px;
       margin-left: 93px;
       padding: 0px;
       
       }
-    .header-link__logo {
+    .logo {
         font-family: Raleway;
         font-style: normal;
         font-weight: 700;
@@ -50,7 +50,7 @@
         margin-left: 0px;
       }
     }
-    .header-list__item-text {
+    .header-list__text {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -60,7 +60,7 @@
         position: relative;
       }
     
-    .header-connet__link-icon {
+    .header-connet__icon {
       fill: currentColor;
       padding: 0px;
       margin-right: 10px;
@@ -81,11 +81,11 @@
           color: var(--accent-color);
         }
       }
-      .header-link-list:hover,
-      .header-link-list:focus {
+      .header-list__item-text:hover,
+      .header-list__item-text:focus {
       color: var(--accent-color);
       }
-      .header-link__logo-first {
+      .logo__first {
         font-family: Raleway;
         font-style: normal;
         font-weight: 700;
@@ -94,6 +94,10 @@
         letter-spacing: 0.03em;
         color: var(--fourth-text-color);
         }
+      .header-connect__link:hover,
+      .header-connect__link:focus {
+      color: var(--accent-color);
+      }
     }
 
   

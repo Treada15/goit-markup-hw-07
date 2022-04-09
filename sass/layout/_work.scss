@@ -11,7 +11,7 @@
       letter-spacing: 0.03em;
       margin-bottom: 50px;
     }
-    .work__list {
+    .work-list {
       display: flex;
       margin: 0 auto;
       padding: 0px;
@@ -23,7 +23,7 @@
       &:last-child {
         margin-right: 0px;
         }
-        .work-list__item-text {
+        .work-list__text {
           font-weight: 700;
           font-size: 14px;
           line-height: 1.17;
@@ -31,7 +31,7 @@
           color: var(--first-text-color);
           
           }
-          .work-list__item-box{
+          .work-list__box{
             position: absolute;
             width: 370px;
             height: 70px;
